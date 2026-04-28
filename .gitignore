@@ -1,0 +1,11 @@
+.build/
+.build-workbench/
+.tmp-home/
+.DS_Store
+rust/target/
+.mactortoisesvn/
+.claude/
+.swiftpm/
+.tocodex/
+.vscode/
+dist/MacTortoiseSVN.app/

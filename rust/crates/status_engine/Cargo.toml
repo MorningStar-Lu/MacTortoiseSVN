@@ -1,0 +1,12 @@
+[package]
+name = "status_engine"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+svn_backend = { path = "../svn_backend" }
+
+[lib]
+path = "src/lib.rs"
+

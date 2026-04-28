@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "crates/mtsvn-rs",
+    "crates/status_engine",
+    "crates/svn_backend",
+]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+license = "GPL-2.0-or-later"
+version = "0.1.0"
+
