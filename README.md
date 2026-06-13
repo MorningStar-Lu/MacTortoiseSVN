@@ -79,7 +79,7 @@ env HOME=$PWD/.tmp-home CLANG_MODULE_CACHE_PATH=$PWD/.build/ModuleCache.noindex 
 
 ## License
 
-Licensed under the **Apache License 3.0** — see [LICENSE](LICENSE).
+Licensed under the **Apache License 2.0** — see [LICENSE](LICENSE).
 
 ## Support
 
@@ -158,7 +158,7 @@ env HOME=$PWD/.tmp-home CLANG_MODULE_CACHE_PATH=$PWD/.build/ModuleCache.noindex 
 
 ## 开源协议
 
-本项目基于 **Apache License 3.0** 开源，详见 [LICENSE](LICENSE)。
+本项目基于 **Apache License 2.0** 开源，详见 [LICENSE](LICENSE)。
 
 ## 支持项目
 
