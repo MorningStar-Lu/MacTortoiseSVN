@@ -31,7 +31,8 @@ Not just a Windows UI clone — a fast standalone SVN workbench, thin Finder int
 ## Features
 
 - **Standalone Workbench** — Native SwiftUI macOS client for commit, update, log, browse, diff
-- **Finder Integration** — Context menus (Commit / Add / Diff / Refresh) + status badges
+- **Finder Overlay Badges** — File status icons (modified / added / conflicted / unversioned) displayed in the bottom-right corner of files and folders in Finder
+- **Finder Context Menus** — Right-click Commit / Add / Diff / Refresh directly from Finder
 - **Status Service** — SQLite cache + FSEvents incremental refresh, never blocks Finder
 - **Rust Backend** — mtsvn-rs command bridge with safe svn invocation
 - **Security Hardened** — `--` option terminators, parameterized SQL, audit token validation
@@ -110,7 +111,8 @@ If this project helps you, sponsorship is welcome.
 ## 功能特性
 
 - **独立工作台** — 原生 SwiftUI macOS 客户端，支持提交、更新、日志、仓库浏览、Diff
-- **Finder 集成** — 右键菜单（Commit / Add / Diff / Refresh）+ 状态 Badge
+- **访达文件状态标识** — 在 Finder 中文件和文件夹右下角显示 SVN 状态图标（已修改 / 已添加 / 冲突 / 未版本控制）
+- **访达右键菜单** — 在 Finder 中直接右键执行 Commit / Add / Diff / Refresh
 - **状态服务** — SQLite 缓存 + FSEvents 增量刷新，不阻塞 Finder
 - **Rust 后端** — mtsvn-rs 命令桥，安全的 svn 命令调用
 - **安全加固** — `--` 选项终止符、参数化 SQL、审计令牌校验
